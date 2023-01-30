@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Comment</key>
+	<string>Created with Recipe Robot v2.2.0 (https://github.com/homebysix/recipe-robot)</string>
+	<key>Description</key>
+	<string>Downloads the latest version of Affinity Designer 2.</string>
+	<key>Identifier</key>
+	<string>at.bwm..download.AffinityDesigner2</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>Affinity Designer 2</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>1.0.0</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>filename</key>
+				<string>%NAME%.dmg</string>
+				<key>url</key>
+				<string>https://d1gl0nrskhax8d.cloudfront.net/macos/designer2/2.0.0/affinity-designer-2.0.0.dmg?Expires=1670000315&amp;Signature=RJD1WTGSyuC-5cEEPStps1nNG46Hlm-gm6m2EOQgfIZo-kmGJmiSTwvP1H-Ckx614ZiNGHzdo1zYadD3pOC8IlCS4K6s8c3CKZaLkrVZP-o7Ot8vN8uOKN5YHRJ80jDcm6yLDEz9e8V2a-9VkKrtKLC7ca67EvKbNbm-NFhuN-JPGLli2eQrocW6xJuwRjTkOxAUHnjMc9WtHIlXSBs0WJ6my75eL0w0XBtQIer9uXRhpYsCwFIxNeErqDyiFEgwpEwGKBtot3oym94P-gSJ2cQd~RKg3thmqUXOLsl1agXSC-ftk3rO8erv-nldqTMOsunfURIkP3uVOrS7N8l1Ug__&amp;Key-Pair-Id=APKAIMMPYSI7GSVTEAAQ</string>
+			</dict>
+			<key>Processor</key>
+			<string>URLDownloader</string>
+		</dict>
+		<dict>
+			<key>Processor</key>
+			<string>EndOfCheckPhase</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>input_path</key>
+				<string>%pathname%/Affinity Designer 2.app</string>
+				<key>requirement</key>
+				<string>anchor apple generic and identifier "com.seriflabs.affinitydesigner2" and (certificate leaf[field.1.2.840.113635.100.6.1.9] /* exists */ or certificate 1[field.1.2.840.113635.100.6.2.6] /* exists */ and certificate leaf[field.1.2.840.113635.100.6.1.13] /* exists */ and certificate leaf[subject.OU] = "6LVTQB9699")</string>
+			</dict>
+			<key>Processor</key>
+			<string>CodeSignatureVerifier</string>
+		</dict>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>input_plist_path</key>
+				<string>%pathname%/Affinity Designer 2.app/Contents/Info.plist</string>
+				<key>plist_version_key</key>
+				<string>CFBundleShortVersionString</string>
+			</dict>
+			<key>Processor</key>
+			<string>Versioner</string>
+		</dict>
+	</array>
+</dict>
+</plist>

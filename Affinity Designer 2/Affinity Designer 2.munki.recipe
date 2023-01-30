@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Comment</key>
+	<string>Created with Recipe Robot v2.2.0 (https://github.com/homebysix/recipe-robot)</string>
+	<key>Description</key>
+	<string>Downloads the latest version of Affinity Designer 2 and imports it into Munki.</string>
+	<key>Identifier</key>
+	<string>at.bwm..munki.AffinityDesigner2</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>apps/%NAME%</string>
+		<key>NAME</key>
+		<string>Affinity Designer 2</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>description</key>
+			<string> </string>
+			<key>developer</key>
+			<string>Serif (Europe) Ltd.</string>
+			<key>display_name</key>
+			<string>Affinity Designer 2</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>1.0.0</string>
+	<key>ParentRecipe</key>
+	<string>at.bwm..download.AffinityDesigner2</string>
+	<key>ParentRecipeTrustInfo</key>
+	<dict>
+		<key>non_core_processors</key>
+		<dict/>
+		<key>parent_recipes</key>
+		<dict>
+			<key>at.bwm..download.AffinityDesigner2</key>
+			<dict>
+				<key>path</key>
+				<string>~/Library/AutoPkg/Recipe Robot Output/Affinity Designer 2/Affinity Designer 2.download.recipe</string>
+				<key>sha256_hash</key>
+				<string>36ec60b0ac6eafde6d70df2d3f79b2343e53484c949aa0742a66da73069a6b69</string>
+			</dict>
+		</dict>
+	</dict>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>pkg_path</key>
+				<string>%pathname%</string>
+				<key>repo_subdirectory</key>
+				<string>%MUNKI_REPO_SUBDIR%</string>
+			</dict>
+			<key>Processor</key>
+			<string>MunkiImporter</string>
+		</dict>
+	</array>
+</dict>
+</plist>

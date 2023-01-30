@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Affinity Photo 2.</string>
 	<key>Identifier</key>
-	<string>at.bwm..download.AffinityPhoto2</string>
+	<string>at.bwm.download.AffinityPhoto2</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>

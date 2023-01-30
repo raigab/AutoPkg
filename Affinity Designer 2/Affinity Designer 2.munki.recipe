@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Affinity Designer 2 and imports it into Munki.</string>
 	<key>Identifier</key>
-	<string>at.bwm..munki.AffinityDesigner2</string>
+	<string>at.bwm.munki.AffinityDesigner2</string>
 	<key>Input</key>
 	<dict>
 		<key>MUNKI_REPO_SUBDIR</key>
@@ -35,14 +35,14 @@
 	<key>MinimumVersion</key>
 	<string>1.0.0</string>
 	<key>ParentRecipe</key>
-	<string>at.bwm..download.AffinityDesigner2</string>
+	<string>at.bwm.download.AffinityDesigner2</string>
 	<key>ParentRecipeTrustInfo</key>
 	<dict>
 		<key>non_core_processors</key>
 		<dict/>
 		<key>parent_recipes</key>
 		<dict>
-			<key>at.bwm..download.AffinityDesigner2</key>
+			<key>at.bwm.download.AffinityDesigner2</key>
 			<dict>
 				<key>path</key>
 				<string>~/Library/AutoPkg/Recipe Robot Output/Affinity Designer 2/Affinity Designer 2.download.recipe</string>

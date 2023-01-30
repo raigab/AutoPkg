@@ -7,7 +7,7 @@
 	<key>Description</key>
 	<string>Downloads the latest version of Affinity Designer 2.</string>
 	<key>Identifier</key>
-	<string>at.bwm..download.AffinityDesigner2</string>
+	<string>at.bwm.download.AffinityDesigner2</string>
 	<key>Input</key>
 	<dict>
 		<key>NAME</key>
@@ -23,7 +23,7 @@
 				<key>filename</key>
 				<string>%NAME%.dmg</string>
 				<key>url</key>
-				<string>https://d1gl0nrskhax8d.cloudfront.net/macos/designer2/2.0.4/affinity-designer-2.0.4.dmg?Expires=1675084362&Signature=A2Bzm8KLgipvs9wxg8geKTnWSmHb2h7a562xzuui23MHZj9CklLvi~QQxDJwdd7Oq15wnWjh42-Eq0xL72vP1biDYKl7IgmjPO0upWb4xeHnw951lxV1AoQCO9bdRdEraRAPzAZ89afaUJKdkNGRMb9Q~9QiZQjp020yhMHnBtHBfcNVZhKyYwidbdzAq9qmoWWmOMinz5P0jBSIXq-zhHQsp7bYtmaJxAPqWLDtwd7F6ujKnyWtNTMaNxKA5ftXsupIjBw8EjfmOdpu-Gm3Qm5vXxrzHj-JmOftHUT1lrTps-0V~WeHxiHiRrOXIlH~ecDvlQu87xCSiJs5Lk9T6Q__&Key-Pair-Id=APKAIMMPYSI7GSVTEAAQ</string>
+				<string>"https://d1gl0nrskhax8d.cloudfront.net/macos/designer2/2.0.4/affinity-designer-2.0.4.dmg?Expires=1675084362&Signature=A2Bzm8KLgipvs9wxg8geKTnWSmHb2h7a562xzuui23MHZj9CklLvi~QQxDJwdd7Oq15wnWjh42-Eq0xL72vP1biDYKl7IgmjPO0upWb4xeHnw951lxV1AoQCO9bdRdEraRAPzAZ89afaUJKdkNGRMb9Q~9QiZQjp020yhMHnBtHBfcNVZhKyYwidbdzAq9qmoWWmOMinz5P0jBSIXq-zhHQsp7bYtmaJxAPqWLDtwd7F6ujKnyWtNTMaNxKA5ftXsupIjBw8EjfmOdpu-Gm3Qm5vXxrzHj-JmOftHUT1lrTps-0V~WeHxiHiRrOXIlH~ecDvlQu87xCSiJs5Lk9T6Q__&Key-Pair-Id=APKAIMMPYSI7GSVTEAAQ"</string>
 			</dict>
 			<key>Processor</key>
 			<string>URLDownloader</string>

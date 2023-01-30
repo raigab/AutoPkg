@@ -23,7 +23,7 @@
 				<key>filename</key>
 				<string>%NAME%.dmg</string>
 				<key>url</key>
-				<string>https://d1gl0nrskhax8d.cloudfront.net/macos/photo2/2.0.0/affinity-photo-2.0.0.dmg?Expires=1670000673&amp;Signature=kUL1XBr4H3U6UE05eI6cLckTCfIrKxmOVTYT6~W7EKAj4Yx4W3-aprIBPwL-CDMw95PgxXrOcOsh8WQOHFlRbx4sLYrlJF0WfG6njNhjiSzUB1qw2fY456oOlP5gI1KWD557VF~XbJUeR0vk1nAqX8qBTW-UD1qDhU6ptbx3EzupdKjVxD-bZpXEyHOn5~Dm04j-l0A1C1hzF6g5bO5-37kBRcUDiY7Y1LSKowWGzCiZ3B76Vfkh7OGf0OWCTmwxSRj4ylpQvJGhjV~sWuhqvvp4kK7M7-UpOCHn34GeMvJmFf-1V8BAZ-5KXxa1BzScV2MLzq8x0Ehp9zKYMyVRzw__&amp;Key-Pair-Id=APKAIMMPYSI7GSVTEAAQ</string>
+				<string>https://d1gl0nrskhax8d.cloudfront.net/macos/photo2/2.0.4/affinity-photo-2.0.4.dmg?Expires=1675084447&Signature=mrQ8eH9YeKGZayAxWkb7wSiQf2~bc7x3ve2vmpRY7H1t5CdnTtMYgrH~jd49JA4U5LRODSJ~BBEtWoqKKNj8vxStE8JnnkhWGNeBB4DXc~NP0RpZrqk2C6IObP5r2smG3Ufy8GJvZIgB1JjrEOxSeqfEGSspZHsGoeNg5PBPqHzBLAzs5mZhuu2vnXVX-GBmcVw~fde9JhhDWJ5lDmH6NXhd5rytKEAr~JiuSed3rQT1V5tpZOL2RWleO4-I99MxK-SgziTCeccqhLIiQm2Wdj87vnZv--VgQT0HPT7ZtjOs~pDVpI0jRPrmjFRPlNZq8MAeoF-DcRuze0MZPzdPiw__&Key-Pair-Id=APKAIMMPYSI7GSVTEAAQ</string>
 			</dict>
 			<key>Processor</key>
 			<string>URLDownloader</string>

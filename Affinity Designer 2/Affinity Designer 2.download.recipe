@@ -23,7 +23,7 @@
 				<key>filename</key>
 				<string>%NAME%.dmg</string>
 				<key>url</key>
-				<string>https://d1gl0nrskhax8d.cloudfront.net/macos/designer2/2.0.0/affinity-designer-2.0.0.dmg?Expires=1670000315&amp;Signature=RJD1WTGSyuC-5cEEPStps1nNG46Hlm-gm6m2EOQgfIZo-kmGJmiSTwvP1H-Ckx614ZiNGHzdo1zYadD3pOC8IlCS4K6s8c3CKZaLkrVZP-o7Ot8vN8uOKN5YHRJ80jDcm6yLDEz9e8V2a-9VkKrtKLC7ca67EvKbNbm-NFhuN-JPGLli2eQrocW6xJuwRjTkOxAUHnjMc9WtHIlXSBs0WJ6my75eL0w0XBtQIer9uXRhpYsCwFIxNeErqDyiFEgwpEwGKBtot3oym94P-gSJ2cQd~RKg3thmqUXOLsl1agXSC-ftk3rO8erv-nldqTMOsunfURIkP3uVOrS7N8l1Ug__&amp;Key-Pair-Id=APKAIMMPYSI7GSVTEAAQ</string>
+				<string>https://d1gl0nrskhax8d.cloudfront.net/macos/designer2/2.0.4/affinity-designer-2.0.4.dmg?Expires=1675084362&Signature=A2Bzm8KLgipvs9wxg8geKTnWSmHb2h7a562xzuui23MHZj9CklLvi~QQxDJwdd7Oq15wnWjh42-Eq0xL72vP1biDYKl7IgmjPO0upWb4xeHnw951lxV1AoQCO9bdRdEraRAPzAZ89afaUJKdkNGRMb9Q~9QiZQjp020yhMHnBtHBfcNVZhKyYwidbdzAq9qmoWWmOMinz5P0jBSIXq-zhHQsp7bYtmaJxAPqWLDtwd7F6ujKnyWtNTMaNxKA5ftXsupIjBw8EjfmOdpu-Gm3Qm5vXxrzHj-JmOftHUT1lrTps-0V~WeHxiHiRrOXIlH~ecDvlQu87xCSiJs5Lk9T6Q__&Key-Pair-Id=APKAIMMPYSI7GSVTEAAQ</string>
 			</dict>
 			<key>Processor</key>
 			<string>URLDownloader</string>

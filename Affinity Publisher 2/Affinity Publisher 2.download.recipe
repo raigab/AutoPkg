@@ -23,7 +23,7 @@
 				<key>filename</key>
 				<string>%NAME%.dmg</string>
 				<key>url</key>
-				<string>https://d1gl0nrskhax8d.cloudfront.net/macos/publisher2/2.0.4/affinity-publisher-2.0.4.dmg?Expires=1675084502&Signature=dkrCeBR0cCd7wSktrbUh8oCb29L4KMXArrlNFhR5RNDlXHW9axH-3SxRxN6PRcj4SpV8otPwtZ1z5c0kAX69vzv-foUwXl8V6QaNbNNIVEt1QIu8DxKo0N2dh4M8y7RKFGbMqZtUOH~QVZrQ0WpbXKcvmSlmeCi959HlElMAAKVDxKRJ5Uh8NdBVqgZJnwIxUU9Yy6YVZXVo62GOemDDKLbPi774evYt9CVCLOSoqbkQB-nkDBcMhczfvq3GUfeaHwCQQH3CRE0QMKgkbOis1s038HFhuDSj4eAhNmj46Dx8S9RllrUp1ZYTVWNnvhufJctdKIpv3zI4M7AuQMtK~w__&Key-Pair-Id=APKAIMMPYSI7GSVTEAAQ</string>
+				<string>https://d1gl0nrskhax8d.cloudfront.net/macos/publisher2/2.0.4/affinity-publisher-2.0.4.dmg?Expires=1675084502&amp;Signature=dkrCeBR0cCd7wSktrbUh8oCb29L4KMXArrlNFhR5RNDlXHW9axH-3SxRxN6PRcj4SpV8otPwtZ1z5c0kAX69vzv-foUwXl8V6QaNbNNIVEt1QIu8DxKo0N2dh4M8y7RKFGbMqZtUOH~QVZrQ0WpbXKcvmSlmeCi959HlElMAAKVDxKRJ5Uh8NdBVqgZJnwIxUU9Yy6YVZXVo62GOemDDKLbPi774evYt9CVCLOSoqbkQB-nkDBcMhczfvq3GUfeaHwCQQH3CRE0QMKgkbOis1s038HFhuDSj4eAhNmj46Dx8S9RllrUp1ZYTVWNnvhufJctdKIpv3zI4M7AuQMtK~w__&amp;Key-Pair-Id=APKAIMMPYSI7GSVTEAAQ</string>
 			</dict>
 			<key>Processor</key>
 			<string>URLDownloader</string>
